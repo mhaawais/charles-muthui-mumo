@@ -38,6 +38,8 @@ const Hero2 = () => {
         </div>
 
 
+
+
         <div className="bg-[#F0ECE2] p-6 rounded-md w-full max-w-[280px]">
           <Image 
             src="/assets/images/wisdom3.jpg" 
@@ -47,6 +49,8 @@ const Hero2 = () => {
             className="w-full rounded-md"
           />
         </div>
+
+
 
       </div>
     </div>
