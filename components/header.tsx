@@ -64,7 +64,7 @@ const Header = () => {
               className="w-11 h-11"
             />
             <h1 className="text-xl md:text-2xl font-semibold text-white font-custom">
-              MARY PAT UZOMA
+              CHARLES MUTHUI
             </h1>
           </a>
 
@@ -104,8 +104,8 @@ const Header = () => {
                   } transform transition-all duration-300 ease-in-out md:absolute left-0 mt-2 bg-black md:shadow-lg shadow-md rounded-sm w-full md:w-64 z-50 border border-white border-solid`}
                 >
                   {[
-                    { title: "Misplaced Trust & Power", link: "/allbooks/book1" },
-                    { title: "From The Eyes Of A Baby", link: "/allbooks/book2" },
+                    { title: "BEAT YOUR YESTERDAY", link: "/allbooks/book1" },
+                    { title: "ROCK ON", link: "/allbooks/book2" },
                     // { title: "Wisdom From A Woman", link: "/allbooks/book3" },
                     // { title: "Building A Functional Home", link: "/allbooks/book4" },
                   ].map((book, i) => (

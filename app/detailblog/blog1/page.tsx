@@ -6,8 +6,8 @@ import Footer from '@/components/footer';
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog - Marry Pat Uzoma",
-  description: "Blog: Misplaced Trust and the Power of Forgiveness - Mary Pat Mbamah Uzoma shares insights on trust, betrayal, and healing.",
+  title: "Blog - Charles Muthui",
+  description: "Blog: from Beat Your Yesterday - Charles Muthui shares insights on trust, betrayal, and healing.",
 };
 
 const Blog1 = () => {
@@ -22,7 +22,7 @@ const Blog1 = () => {
         <div className="bg-black/60 absolute inset-0 z-0" />
         <div className="container mx-auto flex flex-col justify-center items-center px-4 relative z-10">
           <h2 className="font-bold text-2xl md:text-3xl lg:text-4xl text-white mb-8 underline hover:text-myred transition duration-200">
-            MISPLACED TRUST AND THE POWER OF FORGIVENESS
+            BEAT YOUR YESTERDAY
           </h2>
           <div className="flex items-center gap-3">
             <Link href="/">
@@ -41,7 +41,8 @@ const Blog1 = () => {
       {/* Blog Content Section */}
       <div className="w-full bg-black py-16 px-6 md:px-10 lg:px-20">
         <h2 className="text-myred text-2xl md:text-4xl font-bold text-center mb-10">
-          One measure of Kindness, One Stranger, One Decision<br />That Swap Everything
+           A Wake-Up Call for the Dreamers, the Fighters, 
+           and the Broken:
         </h2>
         <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed tracking-tight max-w-4xl mx-auto">
           <p>

@@ -22,10 +22,10 @@ const faviconVersion = "v1.2"; // Declare it here
 
 export const metadata: Metadata = {
   title: {
-    template: "%s | Dwight Vincent Green Jr.",
-    default: "I'm Out: The Reason Why I'm Leaving The Church",
+    template: "%s",
+    default: "",
   },
-  description: "Official site for the Amazon book by Dwight Vincent Green Jr.",
+  description: "",
   icons: {
     icon: [
       // `/assets/logo/Author-Logo.png?v=${faviconVersion}`,

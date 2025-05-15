@@ -7,8 +7,8 @@ import type { Metadata } from "next";
 import Blog from '@/components/blog';
 
 export const metadata: Metadata = {
-   title: "Blog - Marry Pat Uzoma",
-   description: "Blogs by Mary Pat Mbamah Uzoma - Read her latest posts on faith, life, and inspiration at Marypee Official.",
+   title: "Blogs - Charles Muthui & Taji Muthui",
+   description: "Blogs by Charles Muthui & his daughter Taji Muthui - Read her latest posts on faith, life, and inspiration in Books.",
 };
 
 const Myblog = () => {

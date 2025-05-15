@@ -1,16 +1,19 @@
 import React from "react";
 import Header from "@/components/header";
 import Footer from "@/components/footer";
-import type { Metadata } from "next";
 import Hero from "@/components/hero";
 import Hero2 from "@/components/hero2";
 import About from "@/components/about";
 import Blog from "@/components/blog";
 
+
+import type { Metadata } from "next";
+
 export const metadata: Metadata = {
-  title: "hello page",  
-  description: "this is my hello page",
+  title: "Books by Muthui",  
+  description: "Official site for the Amazon book by Charles Muthui & Taji Muthui.",
 };
+
 
 export default function Home() {
   return (

@@ -17,7 +17,7 @@ const Blog = () => {
         <div className="flex-1 bg-white rounded-lg shadow-lg p-6 flex flex-col transform transition duration-300 hover:shadow-xl">
           <h2 className="text-2xl font-bold text-white bg-gray-800 p-4 rounded-t-lg">
             <a href="/detailblog/blog1">
-              BLOG 1: MISPLACED TRUST AND THE POWER OF FORGIVENESS
+              BLOG 1: BEAT YOUR YESTERDAY
             </a>
           </h2>
           <div className="w-full max-w-full h-auto mt-4">
@@ -32,14 +32,15 @@ const Blog = () => {
             />
           </div>
           <h3 className="text-lg font-semibold text-myred mt-4">
-            One measure of Kindness, One Stranger, One Decision That Swap
-            Everything :
+           A Wake-Up Call for the Dreamers, the Fighters, 
+           and the Broken:
           </h3>
           <p className="text-gray-600 mt-2 flex-grow">
-            In helping a person in need, how many risks or sacrifices would you
-            undertake? Mary-Pat Uzoma didn't hesitate. While speaking with an
-            expectant mother who unexpectedly called in a panicked state,
-            Mary-Pat welcomed....
+           With the wisdom of a mentor, the warmth of a brother, and the 
+           grit of someone who’s lived through it all, Dr. D shares stories 
+           that span continents and seasons rising from rural Kenya to American 
+           lecture halls, from childhood wounds 
+           to adult awakenings. Through every chapter, one message remains....
           </p>
           <a
             href="/detailblog/blog1"
@@ -53,7 +54,7 @@ const Blog = () => {
         <div className="flex-1 bg-white rounded-lg shadow-lg p-6 flex flex-col transform transition duration-300 hover:shadow-xl">
           <h2 className="text-2xl font-bold text-white bg-gray-800 p-4 rounded-t-lg">
             <a href="/detailblog/blog2">
-              BLOG 2: FROM THE EYES OF <br /> A BABY
+              BLOG 2: ROCK ON
             </a>
           </h2>
           <div className="w-full max-w-full h-auto mt-4">
@@ -68,14 +69,15 @@ const Blog = () => {
             />
           </div>
           <h3 className="text-lg font-semibold text-myred mt-4">
-            Seeing the World Through Newborn Eyes: A Book That Changes
-            Everything :
+            A Joyful Tribute to Family, Creativity, and the 
+            Power of Bonding Through Books:
           </h3>
           <p className="text-gray-600 mt-2 flex-grow">
-            Have you ever asked yourself about the feelings of someone who
-            encounters the world for the first time? To see light, faces, and
-            movement, and to feel warmth, fear, love, and hunger, all without
-            words? Nearly all of us look at a newborn and....
+            What began as a fun experiment turned into a heartfelt legacy.
+            This book isn’t about perfection, it’s about presence. It’s about
+            a dad who turned screen time into dream time. And in doing so, he
+            gave his daughter the tools to express herself, 
+            create art, and proudly say: “I helped make that!”....
           </p>
           <a
             href="/detailblog/blog2"

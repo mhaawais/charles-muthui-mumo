@@ -7,8 +7,8 @@ import type { Metadata } from "next";
 import Image from 'next/image';
 
 export const metadata: Metadata = {
-  title: "Author - Marry Pat Uzoma", 
-  description: "Learn about Mary Pat Mbamah Uzoma, author of 'Misplaced Trust and the Power of Forgiveness.' Discover her journey of faith, strength, and purpose.",
+  title: "Author - Charles Muthui", 
+  description: "Learn more about Charles Muthui (DR. D), author of 'Beat Your Yesterday' Discover her journey of mission, strength, and purpose.",
 };
 
 const Author = () => {
@@ -42,28 +42,31 @@ const Author = () => {
             {/* Image */}
             <div className="w-full lg:w-1/3 flex-shrink-0">
               <Image
-                src="/assets/images/marypatpic.jpg"
+                src="/assets/images/ebook.jpg"
                 alt="Marypee"
-                width={500}
-                height={600}
+                width={400}
+                height={500}
                 className="w-full h-auto rounded-lg shadow-lg object-cover"
               />
             </div>
 
-            {/* Title + First Paragraphs */}
+            {/* Title + First Paragraphs  drop-shadow-[0_0_20px_theme('colors.myred')] */}
             <div className="w-full lg:w-2/3">
               <h4 className="text-myred text-xl md:text-2xl font-bold tracking-wide mb-2 uppercase">
-                ABOUT MARY —— 
+                ABOUT CHARLES —— 
               </h4>
-              <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-left drop-shadow-[0_0_20px_theme('colors.myred')]">
-                Mary Pat Mbamah Uzoma (Marypee): A Life of Faith, Strength, and Purpose
+              <h2 className="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-left ">
+                Charles Muthui Mumo (DR. D) : A Storyteller, Motivator or a Philosopher
               </h2>
               <div className="text-white text-base md:text-lg space-y-6 leading-relaxed">
                 <p className="tracking-tight">
-                  Mary Pat Uzoma, affectionately known as Marypee, was born and raised in Eastern Nigeria, in the heart of Igbo land. From early on, she had a passion for learning and uplifting others. She graduated from Awka College of Education in Anambra State with a Nigerian Certificate in Education, a milestone that began her lifelong love for teaching and making a difference in people’s lives.
+                  Charles Muthui Mumo, fondly known as Dr. D, is more than just a writer he’s a storyteller, motivator, philosopher, and devoted family man. Born with a passion for expression and raised with a mind that questions everything, Charles began writing as a teenager, crafting entire worlds with his imagination. Today, his words resonate with men seeking purpose, children learning through joy, and anyone searching for truth in a noisy world.
                 </p>
                 <p className="tracking-tight">
-                  Driven by determination and dreams of a brighter future, Marypee relocated to the United States of America early in life. Embracing new beginnings, she returned to school and earned a nursing degree from UMass Boston, graduating with honors (magna cum laude). She passed her board exams and became a Registered Nurse, a profession she embraced with excellence and compassion for over 37 years Plus.
+                  Now based in the USA, Charles writes not for applause, but for healing both his and others. His work is rooted in self-reflection, humor, fatherhood, motivation, and the ever-evolving pursuit of balance. For Charles, writing is an escape, a mirror, and above all, a legacy.
+                </p>
+                <p className="tracking-tight text-myred font-bold italic">
+                  "Every time I write, I discover something new," he says, “It’s a conversation with myself before it’s shared with the world.”
                 </p>
               </div>
             </div>
@@ -72,29 +75,26 @@ const Author = () => {
           {/* Remaining Paragraphs Below Image */}
           <div className="w-full text-white text-base md:text-lg space-y-6 leading-relaxed mt-4">
             <p className="tracking-tight">
-              But her ambitions didn’t stop there. Marypee also became a licensed real estate agent, later transitioning into real estate investment. She founded and directed a CNA-accredited nursing program in Massachusetts, creating opportunities for others to thrive in the medical field just as she had.
+              A proud father, his favorite work to date is Rock On a vibrant, animated picture book he co-created with his daughter, Taji Muthui. “Getting her off the screen to write with me was the biggest win of all,” he beams. His upcoming book Say Your Say as a Man is a heartfelt offering to his son and to men everywhere navigating the journey of manhood.
             </p>
             <p className="tracking-tight">
-              Life brought its share of storms. Marypee endured serious health challenges and a painful divorce, trials that tested her strength but never broke her spirit. Through it all, she emerged even stronger, her unwavering faith in God serving as her anchor.
+              Charles doesn’t claim literary awards yet but his authenticity, wit, and wisdom speak louder than any trophy. He believes in doing his best every day, valuing presence over perfection, and honoring relationships with intentionality and gratitude.
             </p>
             <p className="tracking-tight">
-              She is the proud mother of three children, including her fourth child, whom she calls her “divine gift”. Her children have been her pride and joy, and she now celebrates life as a grandmother to five plus beautiful grandchildren, each one a precious reminder of God’s love.
+              With a spirit shaped by personal trials, philosophical reflection, and the love of a powerful partner, Susan Ndolo-Muthui, Charles brings raw truth and deep joy to everything he writes. His words challenge you to grow, laugh, heal, and most of all keep going.
             </p>
             <p className="tracking-tight">
-              Marypee is more than her titles and accomplishments. She is a woman of deep faith, grace, and resilience. One of the founding members of several prominent churches in Massachusetts is still remembered by members of those churches today.
+              Because as Dr. D reminds us,<br /> 
+              <span className="text-myred font-bold italic">"your best may not be enough today, but it will always be your best and that’s what matters most."</span>
             </p>
-            <p className="tracking-tight">
-              Her life is a living proof of the scripture: “Many are the afflictions of the righteous, but the Lord delivers them out of them all.” Everything she has achieved, she credits to God’s mercy, favor, and guidance.
-            </p>
-            <p className="tracking-tight">
-              Today, Marypee stands as a shining example of what it means to live with purpose, love, and unwavering faith. Her journey continues to inspire all who know her. To God be all the Glory.
-            </p>
+            {/* <p className="tracking-tight"></p>
+                <p className="tracking-tight"></p> */}
           </div>
         </div>
       </div>
 
       {/* Writer Gallery Section */}
-      <div className="bg-black py-16 px-6 md:px-10 lg:px-20">
+      <div className="bg-black py-12 px-6 md:px-10 lg:px-20">
         <h2 className="text-myred text-3xl md:text-4xl font-bold text-center mb-8">
           WRITER GALLERY
         </h2>

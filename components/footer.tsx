@@ -42,7 +42,7 @@ const Footer = () => {
             className="w-11 h-11"
           />
           <h1 className="text-xl md:text-2xl font-semibold text-myred font-custom">
-            MARY PAT UZOMA
+            CHARLES MUTHUI
           </h1>
         </a>
 
@@ -79,13 +79,13 @@ const Footer = () => {
                   href="/allbooks/book1"
                   className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
                 >
-                  Misplaced Trust & Power
+                  BEAT YOUR YESTERDAY
                 </a>
                 <a
                   href="/allbooks/book2"
                   className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
                 >
-                  From The Eyes Of A Baby
+                  ROCK ON
                 </a>
                 {/* <a
                   href="/allbooks/book3"
@@ -121,18 +121,23 @@ const Footer = () => {
 
         {/* Author Bio Section */}
         <div className="w-full mt-8 text-white text-center px-4 md:px-8 lg:px-20">
-          <h2 className="text-xl md:text-2xl font-semibold text-myred mb-4">
-            MARY PEE (MARY PAT UZOMA NÉE MBAMAH)
+          <h2 className="text-xl md:text-2xl underline font-semibold text-myred mb-4">
+             CHARLES MUTHUI (DR. D)
           </h2>
           <p className="text-base md:text-lg font-medium mb-4">
-            NURSE. EDUCATOR. REAL ESTATE INVESTOR. WOMAN OF FAITH.
+            WRITER, DREAMER, DAD ON A MISSION..
           </p>
           <p className="text-sm md:text-base leading-relaxed">
-            Originally from Igbo land in Eastern Nigeria. After earning her magna cum laude nursing degree in the U.S., she served passionately for 37 years in healthcare. Her life’s journey rooted in faith, resilience, and purpose inspires her writing. She has authored several books, including one that shares her powerful testimony of God’s grace through trials and triumphs.
+            Charles Muthui, better known as Dr. D, is the voice behind some of the most powerful real-life storytelling today. From animated picture books created with his daughter (Rock On), to heartfelt letters to men (Say Your Say as a Man), and now a life-shifting personal manifesto (Beat Your Yesterday), Dr. D writes from the soul, and always with purpose.
           </p>
           <p className="text-sm md:text-base leading-relaxed mt-4">
-            With every page you flip, Marypee’s mission remains clear: to share stories that honor God and encourage others to trust His plan.
+            A self-made writer, speaker, and motivator, Charles turns everyday struggles into life lessons that uplift, empower, and challenge you to become your best self. His words don’t just inspire they awaken.
+            He lives in the U.S., but his roots, heart, and mission remain grounded in family, faith, and the fearless pursuit of legacy. Because Dr. D doesn’t just write books he writes blueprints for becoming unstoppable, unshaken, and unapologetically you.
           </p>
+          {/* <p className="text-sm md:text-base leading-relaxed mt-4">
+            He lives in the U.S., but his roots, heart, and mission remain grounded in family, faith, and the fearless pursuit of legacy.
+            Because Dr. D doesn’t just write books he writes blueprints for becoming unstoppable, unshaken, and unapologetically you.
+          </p> */}
         </div>
 
         {/* Horizontal line under bio */}
