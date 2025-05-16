@@ -35,7 +35,7 @@ const Footer = () => {
         {/* Logo + Heading */}
         <a href="/" className="flex items-center space-x-3 mb-6">
           <Image
-            src="/assets/logo/Author-Logo.png"
+            src="/assets/logo/Charles-Logo.png"
             alt="Logo"
             width={45}
             height={45}

@@ -57,7 +57,7 @@ const Header = () => {
         <div className="flex justify-between items-center md:justify-start">
           <a href="/" className="flex items-center space-x-3">
             <Image
-              src="/assets/logo/Author-Logo.png"
+              src="/assets/logo/Charles-Logo.png"
               alt="Logo"
               width={45}
               height={45}

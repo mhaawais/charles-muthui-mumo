@@ -42,7 +42,7 @@ const Author = () => {
             {/* Image */}
             <div className="w-full lg:w-1/3 flex-shrink-0">
               <Image
-                src="/assets/images/ebook.jpg"
+                src="/assets/images/ebook1.jpeg"
                 alt="Marypee"
                 width={400}
                 height={500}
@@ -100,11 +100,11 @@ const Author = () => {
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-4">
           {[
-            "/assets/images/marry1.jpeg",
-            "/assets/images/marry2.jpeg",
-            "/assets/images/marry3.jpeg",
-            "/assets/images/marry5.jpeg",
-            "/assets/images/marry6.jpeg"
+            "/assets/images/charles-1.jpeg",
+            "/assets/images/charles2.jpeg",
+            "/assets/images/charles3.jpeg",
+            "/assets/images/charles4.jpeg",
+            "/assets/images/charles5.jpeg"
           ].map((src, index) => (
             <div key={index} className="group relative w-full overflow-hidden rounded-lg shadow-lg">
               <Image
