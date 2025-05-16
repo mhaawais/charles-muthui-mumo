@@ -17,7 +17,7 @@ const About = () => {
         {/* Foreground Image (Mary Pat) aligned right */}
         <div className="relative z-10 w-72 h-72 md:w-96 md:h-96 mr-4 md:mr-12">
           <Image 
-            src="/assets/images/ebook.jpg" 
+            src="/assets/images/ebook2.jpg" 
             alt="author pic" 
             width={300}
             height={400}

@@ -22,7 +22,7 @@ const Blog = () => {
           </h2>
           <div className="w-full h-64 relative mt-4">
             <Image
-              src="/assets/images/ebook.jpg"
+              src="/assets/images/ebook2.jpg"
               alt="Blog 1 Image"
               fill
               className="rounded-md object-contain"
