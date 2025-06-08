@@ -87,13 +87,13 @@ const Footer = () => {
                 >
                   ROCK ON
                 </a>
-                {/* <a
+                 <a
                   href="/allbooks/book3"
                   className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
                 >
-                  Wisdom From A Woman
+                  SAY YOUR SAY AS A MAN
                 </a>
-                <a
+                {/* <a
                   href="/allbooks/book4"
                   className="hover:bg-myred hover:text-white px-3 py-2 rounded w-full text-center md:w-auto"
                 >

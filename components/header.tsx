@@ -106,7 +106,7 @@ const Header = () => {
                   {[
                     { title: "BEAT YOUR YESTERDAY", link: "/allbooks/book1" },
                     { title: "ROCK ON", link: "/allbooks/book2" },
-                    // { title: "Wisdom From A Woman", link: "/allbooks/book3" },
+                    { title: "SAY YOUR SAY AS A MAN", link: "/allbooks/book3" },
                     // { title: "Building A Functional Home", link: "/allbooks/book4" },
                   ].map((book, i) => (
                     <li key={i}>
